@@ -1,0 +1,129 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 15px;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 0px;
+}
+
+.footer {
+	position: relative;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 14px;
+  color: #fff;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.newPost{
+  padding: 10px;
+  background-color: #1abc9c;
+  border-radius: 10px;
+  width: 300px;
+  transition: transform 2s, width 2s;
+  margin-top: 40px;
+
+}
+
+.newPost:hover{
+  width: 90vh;
+
+
+}
+
+a.linkNew{
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  font-family: 'Calistoga', cursive;
+  letter-spacing: 2px;
+  transition: transform 2s, letter-spacing 2s;
+
+}
+
+a.linkNew:hover{
+  letter-spacing: 5px;
+}
+
+.content{
+  font-family: 'Tajawal', sans-serif;
+  weight: 400;
+  font-size: 16px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+h1{
+  font-family: 'Calistoga', cursive;
+  weight: 400;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button{
+  width: 200px;
+  height: 50px;
+}
+
+button:focus{
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 2px #052c65;
+  transition: .5s;
+}
+
+p.publish{
+  font-family: 'Calistoga', cursive;
+  weight: 400;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+label{
+  font-size: 16px;
+  margin-top: 8px;
+  letter-spacing: 1px;
+}
+
+#input{
+  font-family: 'Tajawal', sans-serif;
+  weight: 400;
+  font-size: 16px;
+}
+
+.readMore{
+  font-family: 'Calistoga', cursive;
+  weight: 400;
+  font-size: 20px;
+}
+
+a.readMore{
+  float: right;
+  margin-bottom: 10px;
+
+}
